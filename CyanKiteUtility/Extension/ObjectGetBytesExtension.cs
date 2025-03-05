@@ -70,19 +70,18 @@ namespace CyanKiteUtility
     {
         public char[] CharArray { get; set; }
 
-        public CustomFixedLengthString(string content)
+        public CustomFixedLengthString(string content, int length = 0):this(content.ToCharArray(),length)
         {
-            CharArray = content.ToCharArray();
         }
 
-        public CustomFixedLengthString(char[] content)
+        public CustomFixedLengthString(char[] content, int length = 0)
         {
-            CharArray = content;
-        }
-
-        public CustomFixedLengthString(string content, int length)
-        {
-            var chars = content.ToCharArray();
+            var chars = content;
+            if (length <= 0)
+            {
+                CharArray = chars;
+                return;
+            }
             CharArray = new char[length];
 
             int minLength = chars.Length > length ? length : chars.Length;
