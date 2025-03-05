@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyanKiteUtility", "CyanKiteUtility.csproj", "{2EB3918E-F481-AB09-8B70-DC91C23EAB99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyanKiteUtility", "CyanKiteUtility\CyanKiteUtility.csproj", "{2EB3918E-F481-AB09-8B70-DC91C23EAB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{BFECCEAA-ECF5-7B65-CC4B-D3C9C59088CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{BFECCEAA-ECF5-7B65-CC4B-D3C9C59088CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
