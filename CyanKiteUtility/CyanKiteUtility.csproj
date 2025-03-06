@@ -6,11 +6,11 @@
 	<RootNamespace>CyanKiteUtility</RootNamespace>
 	<PackageId>CyanKiteUtility</PackageId>
 	<Version>1.2.0</Version>
-	<Authors>CyanKite</Authors>
-    <Company>CyanKite</Company>
+	<Authors>CyanKiteWay</Authors>
+    <Company>CyanKiteWay</Company>
 	<Product>CyanKiteUtility</Product>
 	<Description>CyanKiteUtility is a .NET Standard 2.0 library designed to provide a set of utility functions and helpers to simplify common tasks in .NET applications.  The library includes various helper classes and extensions to handle configuration files, regular expressions, and enumerations, among other functionalities.</Description>
-	<Copyright>Copyright © CyanKite 2025</Copyright>
+	<Copyright>Copyright © CyanKiteWay 2025</Copyright>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	<PackageProjectUrl>https://github.com/CyanKiteWay/CyanKiteUtility</PackageProjectUrl>
