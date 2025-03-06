@@ -20,9 +20,9 @@ namespace CyanKiteUtility
                     SetDllDirectory(attachDllDirectory);
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 

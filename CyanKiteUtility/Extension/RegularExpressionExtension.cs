@@ -47,8 +47,7 @@ namespace CyanKiteUtility
         /// 截取字符串中的IP
         /// </summary>
         /// <param name="strOriginal">原始字符串</param>
-        /// <param name="replace">替换目标字符串</param>
-        /// <returns>替换后的结果字符串</returns>
+        /// <returns>截取到的IP列表</returns>
         public static List<string> SubstringIP(this string strOriginal)
         {
             List<string> result = new List<string>();
@@ -59,7 +58,7 @@ namespace CyanKiteUtility
                 string matchIP = match.ToString().Trim();
                 if (matchIP.IPVerification())
                 {
-                    result.Add(match.ToString());
+                    result.Add(matchIP);
                 }
             }
             return result;

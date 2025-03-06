@@ -29,8 +29,6 @@ namespace CyanKiteUtility
             }
             return _canExecute();
         }
-
-        
     }
 
     public class DelegateCommand<T> : ICommand

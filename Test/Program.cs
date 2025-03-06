@@ -9,7 +9,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
-
+            TestGetVariableNameHelper.Test();
+            return;
+            TestDelegateExtension.Test();
+            return;
             TestAttributeExtension.Test();
             return;
             TestJsonExtension.Test();
