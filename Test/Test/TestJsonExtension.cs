@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using Test.Model;
 
-namespace Test.Tets
+namespace Test.Test
 {
     public class TestJsonExtension
     {

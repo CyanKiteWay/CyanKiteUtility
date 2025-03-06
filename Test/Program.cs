@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
 using CyanKiteUtility;
 using Newtonsoft.Json;
-using Test.Tets;
+using Test.Test;
 
 namespace Test
 {
@@ -9,7 +9,11 @@ namespace Test
     {
         static void Main(string[] args)
         {
+
+            TestAttributeExtension.Test();
+            return;
             TestJsonExtension.Test();
+            return;
         }
     }
 
